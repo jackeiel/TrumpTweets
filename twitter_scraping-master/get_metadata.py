@@ -39,7 +39,7 @@ for go in range(i):
     id_batch = ids[start:end]
     start += 100
     end += 100
-    tweets = api.statuses_lookup(id_batch)
+    tweets = api.statuses_lookup(id_batch, tweet_mode='extended')
     for tweet in tweets:
         all_data.append(dict(tweet._json))
 
