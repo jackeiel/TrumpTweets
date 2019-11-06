@@ -12,3 +12,5 @@ data/Settlements
 
 api_keys.json
 geckodriver.log
+
+sample_api_keys.json
