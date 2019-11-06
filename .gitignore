@@ -9,3 +9,6 @@ __pycache__/*
 data/Settlements
 
 *.pkl
+
+api_keys.json
+geckodriver.log
