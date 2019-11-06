@@ -11,7 +11,7 @@ from time import sleep
 # CHANGE THIS TO THE USER YOU WANT
 user = 'realdonaldtrump'
 
-with open('api_keys.json') as f:
+with open('twitter_scraping-master/api_keys.json') as f:
     keys = json.load(f)
 
 auth = tweepy.OAuthHandler(keys['consumer_key'], keys['consumer_secret'])
@@ -22,7 +22,7 @@ output_file = '{}.json'.format(user)
 output_file_short = '{}_short.json'.format(user)
 compression = zipfile.ZIP_DEFLATED
 
-with open('all_ids.json') as f:
+with open('twitter_scraping-master/all_ids.json') as f:
     ids = json.load(f)
 
 print('total ids: {}'.format(len(ids)))
