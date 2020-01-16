@@ -1,6 +1,7 @@
 .DS_Store
 
 notebook/.ipynb_checkpoints
+Final_Submission/.ipynb_checkpoints
 
 .idea/*
 
@@ -14,3 +15,5 @@ api_keys.json
 geckodriver.log
 
 api_keys.json
+
+not_used/*
